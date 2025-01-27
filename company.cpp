@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-class Company {
+class Company 
+{
 public:
     float initial_amount;
     float branch_A, branch_B,branch_C;
@@ -10,7 +11,7 @@ public:
 	{
         float total = branch_A + branch_B + branch_C;
         return (initial_amount - total);
-    }
+    	}
 
     // Function to display allocated funds for each sub-branch
     void display() 
@@ -18,7 +19,7 @@ public:
         cout << "Funds allocated to Sub-branch A: Rs " << branch_A << " Lakhs" <<endl;
         cout << "Funds allocated to Sub-branch B: Rs " << branch_B << " Lakhs" <<endl;
         cout << "Funds allocated to Sub-branch C: Rs " << branch_C << " Lakhs" <<endl;
-    }
+    	}
 };
 
 int main() {
