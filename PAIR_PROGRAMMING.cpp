@@ -72,6 +72,7 @@ int main()
 	x=pair_grad(p1,p2);
 	y=pair_pg(p1,p2);
 	z=pair_intview(p1,p2);
+	cout<<"Total pair marks: "<<endl;
 	cout<<x<<" is the total marks secured by the pair for Grad."<<endl;
 	cout<<y<<" is the total marks secured by the pair for PG."<<endl;	
 	cout<<z<<" is the total marks secured by the pair in the interview."<<endl;
