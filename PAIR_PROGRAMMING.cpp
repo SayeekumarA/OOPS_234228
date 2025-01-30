@@ -59,12 +59,14 @@ int main()
 	p1.Grad();
 	p1.PG();
 	p1.interview();
+	cout<<"Programmer 1: "<<endl;
 	p1.display();
 	//cout<<"The marks of programmer 1 are: "<<p1.Grad()<<" in graduation, "<<p1.PG()<<" in Post-Grad. and "<<p1.interview()<<endl;
 	
 	p2.Grad();
 	p2.PG();
 	p2.interview();
+	cout<<"Programmer 2: "<<endl;
 	p2.display();
 	//cout<<"The marks of programmer 2 are: "<<p2.Grad()<<" in graduation, "<<p2.PG()<<" in Post-Grad. and "<<p2.interview()<<endl;
 	x=pair_grad(p1,p2);
