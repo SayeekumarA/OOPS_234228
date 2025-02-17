@@ -3,21 +3,22 @@ using namespace std;
 class X 
 {
 private:
-    int i,j;
+    int i;
+	string j;
 public:
       X() //default constructor
 	  {
           i=0;
-          j=0;
+          j="Sai";
       }
-      X(int a,int b) //parameterized constructors. constructors with different number of parameters is called constructor overloading. 
+      X(int a,string b) //parameterized constructors. constructors with different number of parameters is called constructor overloading. 
 	  {
 	      i=a;
 	      j=b;
 	}
   void display()
   {
-      cout<<"The number is"<<i<<"+i"<<j<<endl;  
+      cout<<j<<" is "<<"the only "<<i<<endl;  
   }
   ~X() //destructor. //ar to constructor. it doesn't return anything. doesn't take any parameters.
   {
@@ -29,7 +30,7 @@ public:
 int main() 
 {
   X x1; //default constructor is called.
-  X x2(2,3); //parameterized constructor is called. 
+  X x2(1,"Swami"); //parameterized constructor is called. 
   x1.display();
   x2.display();
   return 0;   
